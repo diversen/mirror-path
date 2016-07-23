@@ -81,6 +81,10 @@ class mirrorPath {
      * @return boolean
      */
     private function validateDisallowTypes($source) {
+        
+        if (empty($this->disallowTypes)) {
+            return true;
+        }
 
         $ary = pathinfo($source);
         if (!empty($ary['extension']) && in_array($ary['extension'], $this->disallowTypes)) {
@@ -95,6 +99,10 @@ class mirrorPath {
      * @return boolean
      */
     private function validateAllowTypes($source) {
+        
+        if (empty($this->allowTypes)) {
+            return true;
+        }
 
         $ary = pathinfo($source);
         if (!empty($ary['extension']) && in_array($ary['extension'], $this->allowTypes)) {
