@@ -4,5 +4,5 @@ composer require diversen/mirror-path
 
 # Usage
 
-See [example.php](example)
+See [example](example.php)
 ~~~
