@@ -9,7 +9,7 @@ Options for:
 
 # Install
 
-composer require diversen/mirror-path
+    composer require diversen/mirror-path
 
 # Usage
 
