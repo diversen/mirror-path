@@ -13,4 +13,4 @@ Options for:
 
 # Usage
 
-See [example](example.php)
+See [example](https://github.com/diversen/mirror-path/blob/master/example.php)
