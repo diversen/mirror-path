@@ -13,4 +13,4 @@ Options for:
 
 # Usage
 
-See [example](example.php)
+See [example](test/example.php)
