@@ -2,6 +2,8 @@
 
 namespace diversen;
 
+use Exception;
+
 class mirrorPath {
 
     /**
